@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# ALIASES
+alias resource="source ~/.bash_profile"
+
 # PROMPT HELPERS
 function ref(){
     git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/\1/" || return
