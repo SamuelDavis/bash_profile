@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# EXPORTS
+export PATH="/usr/local/sbin:$PATH"
+
 # ALIASES
 alias resource="source ~/.bash_profile"
 
